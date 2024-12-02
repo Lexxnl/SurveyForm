@@ -4,17 +4,6 @@ This is a simple survey form that collects user feedback for **Jiggleify**, an i
 
 You can view the live version of this project [here](https://lexxnl.github.io/SurveyForm/).
 
-## Table of Contents
-
-1. [Project Overview](#project-overview)
-2. [Technologies Used](#technologies-used)
-3. [Features](#features)
-4. [What I Learned](#what-i-learned)
-5. [Why This Project is Helpful](#why-this-project-is-helpful)
-6. [How to View the Website](#how-to-view-the-website)
-7. [Acknowledgments](#acknowledgments)
-8. [About Me](#about-me)
-
 
 ## Project Overview
 
