@@ -1,0 +1,168 @@
+body {
+    font-family: 'Mona Sans', sans-serif;
+    background: linear-gradient(to right, #508fbc, #1d78b3); 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Align from the top */
+    min-height: 100vh;  /* Use min-height instead of height */
+    color: white;
+    overflow-y: auto;  /* Allow scrolling */
+}
+
+
+h1, p {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-top: 20px;  /* Add space at the top */
+    margin-bottom: -20px;
+}
+
+
+p {
+    font-size: 1.2em;
+
+}
+
+/* Form Styling */
+form {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+
+    background-color: white;
+    
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    
+    
+    
+    box-sizing: border-box;
+    color: black;
+}
+
+/* Label Styling */
+label {
+    font-weight: bold;
+    display: block;
+    margin: 8px 0 5px;
+}
+
+/* Input Field Styling */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+/* Radio and Checkbox Styles */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Submit Button Styling */
+button {
+    width: 100%;
+    background-color: #1a7f37;
+    color: white;
+    border: none;
+    height: 44px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-right: 3px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out; /* Smooth color transition */
+}
+
+
+button:hover {
+    background-color: #116329; /* Darker green on hover */
+}
+
+button:active {
+    background-color: #1a7f37;
+}
+
+/* Style the container div */
+#radio-div {
+    margin: 20px 0;
+    color: #333;
+}
+
+/* Style the label for the main question */
+#radio-div label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* Style the radio buttons */
+#radio-div input[type='radio'] {
+    margin-right: 10px;
+    transform: scale(1.2); /* Make the radio buttons a little bigger */
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+/* Stack the radio buttons vertically */
+#radio-div .radio-option {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Style the labels for each radio button to appear next to the button */
+#radio-div label[for='radio1'],
+#radio-div label[for='radio2'],
+#radio-div label[for='radio3'],
+#radio-div label[for='radio4'],
+#radio-div label[for='radio5'] {
+    font-size: 14px;
+    cursor: pointer;
+    display: inline-block; /* Align the labels horizontally next to the radio buttons */
+}
+
+/* Add hover effect for labels */
+.radio-sub-div label:hover {
+    color: #508fbc;
+    transition: color 0.3s ease;
+}
+
+/* Style the container of the entire div */
+#radio-div {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.checkbox-question {
+    display: flex;
+    align-items: center;  /* Align checkbox and label vertically */
+    margin-bottom: 10px;   /* Space between each checkbox */
+}
+
+.checkbox-question label {
+    margin-left: 10px;  /* Space between checkbox and label */
+}

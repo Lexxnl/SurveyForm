@@ -1,0 +1,98 @@
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Mona+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"/> 
+</head>
+  
+<body>
+    <h1 id='title'>Jiggleify Survey Form</h1>
+    <p id='description'>We'd love to know what you think</p>
+    <form id='survey-form'>
+        <!-- Name -->
+        <label id='name-label'>Enter your name *</label>
+        <input id='name' type='text' required placeholder='Name'>
+        
+        <!-- Email -->
+        <label id='email-label'>Enter your email *</label>
+        <input id='email' type='email' required placeholder='Enter your email'>
+
+        <!-- Phone Number -->
+        <label id='number-label'>Phone Number</label>
+        <input id='number' type='number' placeholder='Phone Number' min="1000000000" max="9999999999">
+
+
+        <!-- Dropdown -->
+        <label id='dropdown-label'>Did you find the information about Jiggleify’s features clear and easy to understand?</label>
+        <select id='dropdown'>
+            <option value="" disabled selected>Select an option</option>
+            <option value="option1">Yes</option>
+            <option value="option2">No</option>
+            <option value="option3">Somewhat</option>
+        </select>
+
+        <!-- Radio buttons -->
+        <div id="radio-div">
+            <label>Was the website's design visually appealing to you?</label>
+            <div class="radio-sub-div">
+                <input type='radio' value='value1' name='preference' id='radio1'>
+                <label for='radio1'>Very appealing</label>
+            </div>
+            
+            <div class="radio-sub-div">
+                <input type='radio' value='value2' name='preference' id='radio2'>
+                <label for='radio2'>Somewhat appealing</label>
+            </div>
+            
+            <div class="radio-sub-div">
+                <input type='radio' value='value3' name='preference' id='radio3'>
+                <label for='radio3'>Neutral</label>
+            </div>
+
+            <div class="radio-sub-div">
+                <input type='radio' value='value4' name='preference' id='radio4'>
+                <label for='radio4'>Not appealing</label>
+            </div>
+
+            <div class="radio-sub-div">
+                <input type='radio' value='value5' name='preference' id='radio5'>
+                <label for='radio5'>Very unappealing</label>
+            </div>
+
+        </div>
+
+        <!-- Checkbox -->
+        <label>Which of the following features did you find most helpful on the website? (Select all that apply)</label>
+        
+        <div class="checkbox-question">
+            <input type='checkbox' value='agree' id='checkbox1'>
+            <label for='checkbox1'>Information about Jiggleify’s features</label>
+        </div>
+
+        <div class="checkbox-question">
+            <input type='checkbox' value='subscribe' id='checkbox2'>
+            <label for='checkbox2'>Examples of TikTok videos</label>
+        </div>
+
+        <div class="checkbox-question">
+            <input type='checkbox' value='subscribe' id='checkbox3'>
+            <label for='checkbox3'>Sign-up form for early access</label>
+        </div>
+
+        <div class="checkbox-question">
+            <input type='checkbox' value='subscribe' id='checkbox4'>
+            <label for='checkbox4'>Clear website navigation</label>
+        </div>
+
+        <div class="checkbox-question">
+            <input type='checkbox' value='subscribe' id='checkbox5'>
+            <label for='checkbox5'>Visual design and layout</label>
+        </div>
+
+
+        <!-- Textarea -->
+        <label for="textarea">Additional comments:</label>
+        <textarea id="textarea" placeholder="Your comments..."></textarea>
+
+        <!-- Submit button -->
+        <button id='submit'>Submit</button>
+    </form>
+</body>
